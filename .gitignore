@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian
+# Ignore the Obsidian application
+Obsidian/*
+# Keep the actual Obsidian vault
+!Obsidian/AI-Lab/
+!Obsidian/AI-Lab/**
