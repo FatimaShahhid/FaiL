@@ -25,8 +25,12 @@ build/
 Thumbs.db
 
 # Obsidian
-# Ignore the Obsidian application
-Obsidian/*
-# Keep the actual Obsidian vault
-!Obsidian/AI-Lab/
-!Obsidian/AI-Lab/**
+# Keep the local Obsidian application and vault private
+Obsidian/
+
+# FAiL private runtime data
+fail/memory/identity/
+fail/memory/persistent/
+
+# FAiL archival backup
+fail/main_before_tool_call.py
